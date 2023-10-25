@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div className=" min-h-screen flex flex-col items-center justify-center">
-      <img src={logo} alt="Padel MDQ" className="w-2/3 md:w-1/2 lg:w-1/3 mb-6" />
+      <img src={logo} alt="Padel MDQ" className="w-2/3 md:w-1/2 lg:w-1/3 m-16" />
       <Cards />
       <Footer />
     </div>
