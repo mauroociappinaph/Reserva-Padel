@@ -5,7 +5,7 @@ export default function Cards() {
   return (
     <div className="flex flex-col items-center w-full m-3">
       <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl m-2 mb-10 text-center">
-        Reserva tu cancha <br /> favorita por Wh
+        Reserva tu cancha <br /> favorita por Wha
       </h1>
 
       <div className="flex flex-col space-y-4">
