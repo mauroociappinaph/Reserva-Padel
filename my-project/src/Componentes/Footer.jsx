@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24 mb-10">
         <div className="text-center">
-          <h2 className="text-2xl font-extrabold text-gray-900 sm:text-5xl">
+          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl m-2 mb-10 text-center">
             ¿Queres agregar tu cancha?
           </h2>
           <a
