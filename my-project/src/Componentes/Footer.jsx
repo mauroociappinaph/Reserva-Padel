@@ -1,4 +1,5 @@
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer>
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24 mb-10">
@@ -12,6 +13,9 @@ export default function Footer() {
           >
             ESCRIBINOS
           </a>
+          <p className="mt-8 text-gray-500 text-sm font-bold">
+            &copy; {currentYear} Todos los derechos reservados <br className="hidden sm:inline " />padelmdq.com.ar. 
+          </p>
         </div>
       </div>
     </footer>
